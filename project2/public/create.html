@@ -1,0 +1,45 @@
+<!--//amelia maxwell
+//ca2 web app
+//23471092-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Creature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-m">
+    <header class="header-m">
+        <h1 class="header-m-title">Create New Creature</h1>
+        <nav class="nav-m">
+            <ul class="nav-m-list">
+                <li><a href="home.html" class="nav-m-link">~ Home Page</a></li>
+                <li><a href="stats.html" class="nav-m-link">~ Power Statistics</a></li>
+				<li><a href="index.html" class="nav-m-link">~ Browse Creatures</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-m">
+        <section id="add-creature-section" class="add-m-section">
+            <h2 class="add-m-title">Add a New Creature</h2>
+            <form id="add-creature-form" class="add-m-form">
+                <input type="text" id="name" class="add-m-input" placeholder="Name" required>
+                <input type="text" id="description" class="add-m-input" placeholder="Description" required>
+                <input type="text" id="category" class="add-m-input" placeholder="Category (e.g., Water, Fire)" required>
+                <input type="number" id="powerLevel" class="add-m-input" placeholder="Power Level (1-100)" required>
+                <input type="text" id="abilities" class="add-m-input" placeholder="Abilities (comma-separated)" required>
+                <button type="submit" class="add-m-button">Add Creature</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-m">
+        <p class="footer-m-text">&copy; 2024 Mythical Creatures Database. All rights reserved.</p><!--&copy;=@-->
+    </footer>
+
+    <script src="create.js"></script>
+</body>
+</html>

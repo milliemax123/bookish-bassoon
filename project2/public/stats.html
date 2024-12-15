@@ -1,0 +1,39 @@
+<!--//amelia maxwell
+//ca2 web app
+//23471092-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creature Power Levels</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js library, express.js serves it data via apis which chart.js fetches+ visualises--> -->
+</head>
+<body class="body-m">
+    <header class="header-m">
+        <h1 class="header-m-title">Creature Power Levels</h1>
+        <nav class="nav-m">
+            <ul class="nav-m-list">
+                <li><a href="home.html" class="nav-m-link">~ Home Page</a></li>
+                <li><a href="create.html" class="nav-m-link">~ Create Creature</a></li>
+                <li><a href="index.html" class="nav-m-link">~ Browse Creatures</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-m">
+        <section id="stats-section" class="stats-m">
+            <h2 class="stats-m-title">Power Levels of Creatures</h2>
+            <canvas id="powerLevelChart"></canvas> <!--canvas is an element that makes a drawing area using js-->
+        </section>
+    </main>
+
+    <footer class="footer-m">
+        <p>&copy; 2024 Mythical Creatures Database. All rights reserved.</p><!--&copy;=@-->
+    </footer>
+
+    <script src="stats.js"></script> <!-- js for bar chart -->
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!--//amelia maxwell
+//ca2 web app
+//23471092-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creature Lookup Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-m">
+    <header class="header-m">
+        <h1 class="header-m-title">Creature Lookup Tool</h1>
+        <nav class="nav-m">
+            <ul class="nav-m-list">
+                <!-- Update links for navigation -->
+                <li><a href="home.html" class="nav-m-link">~ Home Page</a></li>
+                <li><a href="create.html" class="nav-m-link">~ Create Creature</a></li>
+				<li><a href="stats.html" class="nav-m-link">~ Power Statistics</a></li>
+            </ul>
+        </nav>
+    </header>
+   <div class="main-m">
+    <!-- SEARCH -->
+    <section id="search-section" class="search-m">
+        <input type="text" id="search" class="search-m-input" placeholder="Search creatures...">
+        <button id="search-button" class="search-m-button">Search</button>
+    </section>
+
+    <!-- RESULTS -->
+    <div id="results-container" class="results-box">
+        <h2>Our Creatures</h2> <!-- Centered Title -->
+        <!-- Results dynamically added here -->
+    </div>
+
+    <!-- NAMES -->
+    <div class="creature-names-m">
+        <h2>Creature Names</h2> 
+        <ul id="creature-names-list" class="creature-names-list">
+            <!-- names added here every every craeture creation -->
+        </ul>
+    </div>
+</div>
+
+    <footer class="footer-m">
+        <p>&copy; 2024 Mythical Creatures Database</p>
+    </footer>
+    <script src="lookup.js"></script>
+</body>
+</html>

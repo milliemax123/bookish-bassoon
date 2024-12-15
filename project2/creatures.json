@@ -1,0 +1,159 @@
+{
+  "creatures": [
+    {
+      "id": 1,
+      "name": "Kelpie",
+      "description": "A shape-shifting water horse that lures travelers to their demise in the water",
+      "category": "Water",
+      "powerLevel": 80,
+      "abilities": [
+        "Shape-shifting",
+        "Hypnotic Charm",
+        "Aquatic Speed"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Naiad",
+      "description": "A freshwater nymph that guards bodies of water.",
+      "category": "Water",
+      "powerLevel": 60,
+      "abilities": [
+        "Water Healing",
+        "Eternal Youth"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kraken",
+      "description": "A colossal sea monster that sinks ships for fun.",
+      "category": "Water",
+      "powerLevel": 100,
+      "abilities": [
+        "Tentacle Grab",
+        "Strength"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Golem",
+      "description": "A boulder based guardian animated by spells.",
+      "category": "Earth",
+      "powerLevel": 75,
+      "abilities": [
+        "Super Strength",
+        "Unstoppable Defense"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pegasus",
+      "description": "A majestic winged horse that soars through the clouds.",
+      "category": "Air",
+      "powerLevel": 90,
+      "abilities": [
+        "Flight",
+        "Taxi-service"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Wendigo",
+      "description": "A chilling spirit with an insatiable hunger for flesh...it will mimic those close to you to get closer.",
+      "category": "Dark",
+      "powerLevel": 95,
+      "abilities": [
+        "Shape shifting",
+        "Manipulation"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mermaid",
+      "description": "Beautiful half fish people with a hypnotic voice.",
+      "category": "Water",
+      "powerLevel": 70,
+      "abilities": [
+        "Siren Song",
+        "Underwater Breathing"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Banshee",
+      "description": "A wailing spirit that determines death with her cries.",
+      "category": "Dark",
+      "powerLevel": 85,
+      "abilities": [
+        "Deathly Wail",
+        "Communication with the dead"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Elf",
+      "description": "A magical tiny human skilled in archery and magic.",
+      "category": "Earth",
+      "powerLevel": 80,
+      "abilities": [
+        "Archery Mastery",
+        "Nature Magic"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Centaur",
+      "description": "A half-human, half-horse being known for its wisdom and combat.",
+      "category": "Earth",
+      "powerLevel": 85,
+      "abilities": [
+        "Battle Mastery",
+        "Nature Wisdom"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Dragon",
+      "description": "A legendary giant reptilian creature that spits fire.",
+      "category": "Fire",
+      "powerLevel": 100,
+      "abilities": [
+        "Fire Breath",
+        "Treasure Hoarding",
+        "Flight"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Fairy",
+      "description": "A tiny magical being with wings and a mischievous streak.",
+      "category": "Air",
+      "powerLevel": 60,
+      "abilities": [
+        "Flight",
+        "Magic Wand"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Unicorn",
+      "description": "Flying mythical horse with a rainbow horn.",
+      "category": "Earth",
+      "powerLevel": 40,
+      "abilities": [
+        "Flying",
+        "Magical Wishes"
+      ]
+    },
+    {
+      "name": "elfie",
+      "description": "Flying mythical elf with a rainbow horn.",
+      "category": "Earth",
+      "powerLevel": 1,
+      "abilities": [
+        "Magical Wishes"
+      ],
+      "id": 14
+    }
+  ]
+}
